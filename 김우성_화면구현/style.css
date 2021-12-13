@@ -1,0 +1,627 @@
+html {width: 1024px; }
+.main {margin-left: 200px; margin-right: 200px; margin-top: 0; margin-bottom: 0; font-family: 'BMDOHYEON'; width: 85%;}
+@font-face {
+    font-family: 'BMDOHYEON';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_one@1.0/BMDOHYEON.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+header{text-align: right; background: black no-repeat; padding: 50px 15px 40px; background-size: cover;
+    font-weight: 100px; text-shadow: black; border: 1px solid black; width: 830px;}
+header h1 {color: white;}
+header h2 {color: orange}
+nav {background: white; border: 1px solid black; width: 860px; height: 50px;}
+nav::after {content: ""; clear: both; display: block;}
+nav ul{margin: auto; list-style: none;}
+nav ul li{float: left; margin: 15px 100px 15px 30px;}
+nav a{color: black; text-decoration: none;}
+/* .main {background: darkkhaki; width: 900px; margin-top: 0;} */
+.main_title {
+    position: absolute;
+    top: 40px;
+    left: 210px;
+    width: 214px;
+    height: 50px;
+}
+
+.main .main_title img {
+    width: 100px;
+    height: 100px;
+}
+.index_firstWrap {
+    position: relative;
+    width: 900px;
+    height: 300px;
+    background: white;
+}
+.index_1st {
+    position: absolute;
+    width: 500px;
+    height: 150px;
+    top: 50px;
+    left: 50px;
+}
+.text {
+    position: absolute;
+    top: 190px;
+    left: 50px;
+}
+/* p {text-align: ;} */
+.index_2nd {
+    position: absolute;
+    width: 183px;
+    height: 47px;
+    background: #C8F9FF;
+    top: 75px;
+    right: 94px;
+    border-radius: 15px;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.index_3rd {
+    position: absolute;
+    width: 70px;
+    height: 20px;;
+    top: 150px;
+    right: 205px;
+}
+.index_4rd {
+    position: absolute;
+    width: 80px;
+    height: 20px;
+    background: white;
+    top: 150px;
+    right: 90px;
+}
+.index_firstWrap div > a {
+    text-decoration: none;
+    color: #777;
+    
+}
+.index_secondWrap {
+    position: relative;
+    width: 900px;
+    height: 500px;
+    background: white;
+}
+.index_secondWrap div img {
+    width: 75px;
+    height: 75px;
+}
+.title2 {
+    position: absolute;
+    width: 900px;
+    height: 75px;
+    left: 50px;
+}
+.index_5rd {
+    position: absolute;
+    width: 75px;
+    height: 75px;
+    top: 90px;
+    left: 50px;
+}
+.index_5rdTxt {
+    position: absolute;
+    width: 200px;
+    height: 75px;
+    top: 90px;
+    left: 150px;
+}
+.index_6rd {
+    position: absolute;
+    width: 75px;
+    height: 75px;
+    top: 250px;
+    left: 50px;
+}
+.index_6rdTxt {
+    position: absolute;
+    width: 200px;
+    height: 75px;
+    top: 250px;
+    left: 150px;
+}
+.index_7rd {
+    position: absolute;
+    width: 75px;
+    height: 75px;
+    top: 90px;
+    right: 450px;
+}
+.index_7rdTxt {
+    position: absolute;
+    width: 250px;
+    height: 75px;
+    top: 90px;
+    right: 175px;
+}
+.index_8rd {
+    position: absolute;
+    width: 75px;
+    height: 75px;
+    top: 250px;
+    right: 450px;
+}
+.index_8rdTxt {
+    position: absolute;
+    width: 250px;
+    height: 75px;
+    top: 250px;
+    right: 175px;
+}
+.index_secondWrap div h3 {
+    margin-top: 0;
+}
+.index_bottom {
+    position: relative;
+    width: 900px;
+    height: 1000px;
+    
+}
+.title3 h2{
+    text-align: center;
+}
+.ptone img{
+    position: absolute;
+    width: 100%;
+    height: 200px;
+    top: 50px;
+}
+.txtone {
+    position: absolute;
+    width: 90%;
+    height: 100px;
+    top: 250px;
+}
+.pttwo {
+    position: absolute;
+    width: 900px;
+    height: 200px;
+    background: url("image/architecture-5713016_640.jpg") no-repeat ;
+    top: 300px;
+}
+.txttwo {
+    position: absolute;
+    width: 900px;
+    height: 100px;
+    top: 500px;
+    
+}
+.ptthree {
+    position: absolute;
+    width: 900px;
+    height: 200px;
+    background: url("image/architecture-5713016_640.jpg") no-repeat;
+    top: 550px;
+}
+.txtthree {
+    position: absolute;
+    width: 900px;
+    height: 100px;
+    top: 750px;
+}
+
+footer {
+    width: 815px;
+    height: 100px;
+    background: black;
+    text-align: center;
+    color: white;
+    
+}
+footer p {
+    padding: 40px;
+}
+
+/* notice & free */
+table {
+    border-collapse: collapse;
+    
+}
+
+.board_list_wrap {
+
+    padding: 100px;
+}
+caption {
+    font-weight: bold;
+    font-size: 25px;
+    margin: 0 0 10px 0;
+}
+.board_list {
+    width: 100%;
+    border-top: 2px solid #dbdbdb; 
+}
+.board_list tr {
+    border-bottom: 1px solid #999;
+}
+
+.board_list th {
+    background: #eee;
+}
+
+.board_list th,.board_list td {
+    padding: 10px;
+    font-size: 14px;
+}
+
+.board_list td{ text-align: center;}
+
+.board_list tbody tr td:nth-child(2) {
+    text-align: left;
+}
+.board_list tbody tr td:nth-child(2):hover {
+    text-decoration: underline;
+}
+.board_list tr a{
+    text-decoration: none;
+    color: inherit;
+}
+.board_list_wrap .write {
+    text-align: right;
+    margin-top: 20px;
+
+}
+.board_list_wrap .write a input{
+    text-decoration: none;
+    color: inherit;
+    border-radius: 10px;
+    font-size: 17px;
+    padding: 10px;
+    background-color: #CCC;
+    
+}
+.board_list_wrap .write .page {
+    margin-top: 10px;
+    font-size: 0px;
+    margin: 20px;
+    margin-right: 125px;
+}
+.page a {
+    text-decoration: none;
+    color: inherit;
+    display: inline-block;
+    font-size: 17px;
+    margin-left: 10px;
+    border-radius: 100px;
+    padding: 5px 10px;
+    background: #eee;
+}
+
+.board_list_wrap .page a.num {
+    font-weight: bold;
+}
+
+/* write & modify*/
+.write_main {
+    margin: 100px 100px 10px 100px;
+    padding: 10px;
+}
+.tit {
+    border-top: 2px solid #999;
+}
+.cont , .tit {
+    padding: 15px;
+}
+.write_main .tit dl dt,
+.write_main .tit dl dd{
+    display: inline-block;
+}
+.write_main .tit dl {
+    margin: auto;
+}
+.tit dl dd input{
+    width: 500px;
+    height: 30px;
+}
+.cont {
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #999;
+   
+}
+.cont textarea{
+    width: 100%;
+    height: 400px;
+}
+
+.write_bottom {
+    margin-left: 600px;
+    margin-top: 23px;
+    margin-bottom: 0px;
+    width: 120px;
+    display: inline;
+    border-top-width: 0px;
+    padding-top: 0px;
+}
+.write_bottom a {
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 10px;
+}
+.write_bottom .black {
+    background-color: #777;
+    color: white;
+}
+.write_bottom a:nth-child(2) {
+    background-color: #ccc;
+}
+/* gallery */
+.gallery_wrap {
+    position: relative;
+    width: 100%;
+    height: 650px;
+    
+}
+
+.gallery_wrap .gallery_item{
+    position: absolute;
+    display: inline-block;
+}
+
+.gallery_wrap .gallery_item:nth-child(1){
+    position: absolute;
+    margin: 100px 0 0 50px;
+}
+.gallery_wrap .gallery_item:nth-child(2){
+    position: absolute;
+    margin: 100px 0 0 350px;
+}
+.gallery_wrap .gallery_item:nth-child(3){
+    position: absolute;
+    margin: 400px 0 0 50px;
+}
+.gallery_wrap .gallery_item:nth-child(4){
+    position: absolute;
+    margin: 400px 0 0 350px; 
+}
+.gallery_wrap .gallery_item:nth-child(5){
+    position: absolute;
+    margin: 100px 0 0 650px; 
+}
+.gallery_wrap .gallery_item:nth-child(6){
+    position: absolute;
+    margin: 400px 0 0 650px; 
+}
+.gallery_wrap .gallery_item > img{
+    width: 150px;
+    height: 150px;
+}
+.gallery_wrap .gallery_item > p {
+    text-align: center;
+}
+.board_list_wrap .page {
+    margin-top: 10px;
+    font-size: 0px;
+    margin: 20px;
+    margin-left: 150px;
+}
+
+.page {
+    margin: 0px 0px 100px 200px;
+    
+}
+
+.page a {
+    text-decoration: none;
+    color: inherit;
+    display: inline-block;
+    font-size: 17px;
+    margin-left: 10px;
+    border-radius: 100px;
+    padding: 5px 10px;
+    background: #eee;   
+}
+
+.page a.num {
+    font-weight: bold;
+}
+/* signup */
+.signup {
+    height: 500px;
+    margin-top: 10%;
+    margin-left: 30%;
+}
+.signup div {
+    width: 100%;
+    margin: 15px 0px 25px 0;
+    font-size: 17px;
+}
+
+.signup div label{
+    display: block;
+    margin-bottom: 10px;
+    margin-left: -9px;
+}
+.signup div input {
+    width: 400px;
+    height: 40px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+.signup a .signup_bottom {
+    width: 100px;
+    height: 50px;
+    margin-top: 20px;
+    margin-left: 150px;
+    background: yellowgreen;
+    padding: 10px;
+    text-align: center;
+    border-radius: 3px;
+}
+.signup a{
+    text-decoration: none;
+    color: inherit;
+}
+
+/* signin */
+.signin {
+    height: 500px;
+    margin-top: 10%;
+    margin-left: 30%;
+}
+.signin div {
+    width: 100%;
+    margin: 15px 0px 25px 0;
+    font-size: 17px;
+}
+
+.signin div label{
+    display: block;
+    margin-bottom: 10px;
+    margin-left: -9px;
+}
+.signin div input {
+    width: 400px;
+    height: 40px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+.signin a .signin_bottom {
+    width: 400px;
+    height: 50px;
+    background: yellowgreen;
+    padding: 10px;
+    text-align: center;
+    border-radius: 3px;
+}
+.signin a {
+    text-decoration: none;
+    color: inherit;
+}
+.signin .signin_bottom {
+    width: 388px;
+    height: 24px;
+    margin-top: 40px;
+    background: yellowgreen;
+    padding: 10px;
+    text-align: center;
+    border-radius: 3px;
+}
+/* contract */
+.contract {
+    height: 500px;
+    margin-top: 10%;
+    margin-left: 90px;
+}
+.contract .contract_div {
+    margin-bottom: 10px;
+}
+.contract .contract_div textarea{
+    border: none;
+    width: 700px;
+    height: 300px;
+    font-size: 1.7em;
+    margin-bottom: 10px;
+}
+label {
+    font-size: 16px;
+    margin-top: 10px;
+    margin-left: 456px;
+    padding: 10px
+    
+}
+.contract .contract_bottom {
+    width: 100px;
+    height: 24px;
+    margin-top: 20px;
+    margin-left: 585px;
+    background: yellowgreen;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    border-radius: 3px;
+}
+.contract a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* detail */
+.board_detail_wrap {
+    padding: 100px;
+}
+.board_detail {
+    width: 100%;
+    border-top: 2px solid #dbdbdb; 
+}
+.board_detail tr {
+    border-bottom: 1px solid #999;
+}
+
+.board_detail th {
+    background: #eee;
+}
+
+.board_detail th,.board_detail td {
+    padding: 10px;
+    font-size: 14px;
+}
+.board_detail th {margin: 10px;}
+
+.board_detail td{ text-align: center;}
+
+.board_detail tbody tr td:nth-child(2) {
+    text-align: left;
+}
+.board_detail tbody tr td:nth-child(2):hover {
+    text-decoration: underline;
+}
+.board_detail tr a{
+    text-decoration: none;
+    color: inherit;
+}
+.board_detail_wrap .write {
+    text-align: right;
+    margin-top: 20px;
+
+}
+.board_detail_wrap .write a {
+    text-decoration: none;
+    color: inherit;
+    background: yellowgreen;
+    border-radius: 50px;
+    font-size: 17px;
+    padding: 10px;
+}
+.board_detail_wrap .page {
+    margin-top: 10px;
+    font-size: 0px;
+    margin: 20px;
+    margin-left: 150px;
+}
+.board_detail_wrap .page a {
+    text-decoration: none;
+    color: inherit;
+    display: inline-block;
+    font-size: 17px;
+    margin-left: 10px;
+    border-radius: 100px;
+    padding: 5px 10px;
+    background: #eee;
+}
+
+.board_detail_wrap .page a.num {
+    font-weight: bold;
+}
+.board_detail_wrap .board_detail tbody {
+    height: 200px;
+}
+.board_detail_wrap .detail_bottom {
+    margin-left: 500px;
+    display: inline;
+}
+.board_detail_wrap a {
+    display: inline-block;
+    text-decoration: none;
+    color: inherit;
+    padding: 10px;
+    margin: 2px;
+    border-radius: 3px;
+    border: 1px solid black;
+}
+.board_detail_wrap a:hover {
+    background: #888;
+}
